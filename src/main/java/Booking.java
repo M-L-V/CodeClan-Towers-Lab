@@ -5,6 +5,7 @@ public class Booking {
 
     public Booking(Bedroom bedroom, int numberOfNights){
         this.room = bedroom;
+        bedroom.bookSelf();
         this.numberOfNights = numberOfNights;
     }
 
@@ -19,4 +20,6 @@ public class Booking {
     public int calculateTotalCost() {
         return numberOfNights * this.room.rateOfRoom();
     }
+
+
 }

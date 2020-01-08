@@ -71,5 +71,13 @@ public class HotelTest {
         assertEquals(60, newBooking.calculateTotalCost());
     }
 
+    @Test
+    public void canReturnAvailableRooms() {
+        Booking newBooking = hotel.bookRoom(bedroom1, 2);
+        ArrayList<Bedroom> availableRooms = hotel.getAvailableRooms();
+//        assertEquals(bedroom2, availableRooms.get(0));
+        assertEquals(1, availableRooms.size() );
+    }
+
 
 }

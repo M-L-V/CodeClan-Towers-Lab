@@ -25,6 +25,7 @@ public class Hotel {
     }
 
     public void checkInGuest(Guest guest, Bedroom bedroom) {
+
         bedroom.addGuest(guest);
     }
 
@@ -35,4 +36,14 @@ public class Hotel {
     public Booking bookRoom(Bedroom bedroom, int numOfNights) {
         return new Booking(bedroom, numOfNights);
     }
+
+    public ArrayList<Bedroom> getAvailableRooms() {
+        ArrayList<Bedroom> availableRooms = new ArrayList<Bedroom>();
+        for (Bedroom room : this.bedrooms) {
+            if (!room.checkIfBooked()) {
+                availableRooms.add(room);
+            }
+        }
+        return availableRooms;
+     }
 }
