@@ -11,4 +11,8 @@ public class Booking {
     public Bedroom checkBedroom() {
         return this.room;
     }
+
+    public int checkNights() {
+        return this.numberOfNights; 
+    }
 }

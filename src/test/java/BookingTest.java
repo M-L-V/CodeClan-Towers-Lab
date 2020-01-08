@@ -1,7 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 
-import static junit.framework.TestCase.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 public class BookingTest {
 
@@ -21,5 +21,10 @@ public class BookingTest {
     @Test
     public void bookingHasBedroom(){
         assertEquals(bedroom1, booking.checkBedroom());
+    }
+
+    @Test
+    public void bookingHasNights(){
+        assertEquals(2, booking.checkNights());
     }
 }
