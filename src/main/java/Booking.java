@@ -13,6 +13,6 @@ public class Booking {
     }
 
     public int checkNights() {
-        return this.numberOfNights; 
+        return this.numberOfNights;
     }
 }

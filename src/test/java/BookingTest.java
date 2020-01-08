@@ -12,8 +12,8 @@ public class BookingTest {
     @Before
     public void before(){
 
-        bedroom1 = new Bedroom(101, 2, "double");
-        bedroom2 = new Bedroom(102, 1, "single");
+        bedroom1 = new Bedroom(101, 2, "double", 30);
+        bedroom2 = new Bedroom(102, 1, "single", 40);
 
         booking = new Booking(bedroom1,2);
     }
@@ -26,5 +26,10 @@ public class BookingTest {
     @Test
     public void bookingHasNights(){
         assertEquals(2, booking.checkNights());
+    }
+
+    @Test
+    public void checkBookingHasTotalCost(){
+
     }
 }
