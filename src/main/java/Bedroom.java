@@ -33,4 +33,8 @@ public class Bedroom {
     public void addGuest(Guest guest) {
         guests.add(guest);
     }
+
+    public void removeGuest(Guest guest) {
+        guests.remove(guests.indexOf(guest));
+    }
 }
