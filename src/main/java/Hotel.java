@@ -9,7 +9,7 @@ public class Hotel {
     public Hotel (String hotelName, ArrayList<Bedroom> bedrooms, ArrayList<ConferenceRoom> conferenceRooms){
         this.hotelName = hotelName;
         this.bedrooms = bedrooms;
-        this.conferenceRooms = conferenceRooms; 
+        this.conferenceRooms = conferenceRooms;
     }
 
     public String getHotelName() {
@@ -18,5 +18,9 @@ public class Hotel {
 
     public int countBedrooms() {
         return this.bedrooms.size();
+    }
+
+    public int countConferenceRooms() {
+        return this.conferenceRooms.size(); 
     }
 }
