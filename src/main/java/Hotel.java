@@ -21,6 +21,10 @@ public class Hotel {
     }
 
     public int countConferenceRooms() {
-        return this.conferenceRooms.size(); 
+        return this.conferenceRooms.size();
+    }
+
+    public void checkInGuest(Guest guest, Bedroom bedroom) {
+        bedroom.addGuest(guest);
     }
 }

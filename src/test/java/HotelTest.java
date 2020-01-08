@@ -38,7 +38,6 @@ public class HotelTest {
 
     @Test
     public void canGetHotelName(){
-
         assertEquals("CodeClan Towers", hotel.getHotelName());
     }
 
@@ -51,5 +50,12 @@ public class HotelTest {
     public void canCountConferenceRooms(){
         assertEquals(2, hotel.countConferenceRooms());
     }
+
+    @Test
+    public void canCheckIntoRoom(){
+        hotel.checkInGuest(guest1, bedroom1);
+        assertEquals(1, bedroom1.guestCount());
+    }
+
 
 }
