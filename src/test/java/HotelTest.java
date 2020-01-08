@@ -71,4 +71,5 @@ public class HotelTest {
         assertEquals(60, newBooking.calculateTotalCost());
     }
 
+
 }

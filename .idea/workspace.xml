@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b15540dc-c9d6-4022-b499-b75b85259a62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BedroomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BedroomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HotelTest">
+  <component name="RunManager" selected="JUnit.All in CodeClanTowersLab">
     <configuration name="All in CodeClanTowersLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowersLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,10 +93,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in CodeClanTowersLab" />
         <item itemvalue="JUnit.HotelTest" />
         <item itemvalue="JUnit.BedroomTest" />
         <item itemvalue="JUnit.BookingTest" />
-        <item itemvalue="JUnit.All in CodeClanTowersLab" />
         <item itemvalue="JUnit.ConferenceRoomTest" />
       </list>
     </recent_temporary>

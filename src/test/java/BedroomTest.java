@@ -63,4 +63,15 @@ public class BedroomTest {
     public void roomHasRate(){
         assertEquals(30, bedroom1.rateOfRoom());
     }
+
+    @Test
+    public void isBookedStartsFalse() {
+        assertEquals(false, bedroom1.checkIfBooked());
+    }
+
+    @Test
+    public void canSetBookedToTrue() {
+        bedroom1.bookSelf();
+        assertEquals(true, bedroom1.checkIfBooked());
+    }
 }
