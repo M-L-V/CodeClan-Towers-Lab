@@ -30,6 +30,6 @@ public class BookingTest {
 
     @Test
     public void checkBookingHasTotalCost(){
-
+        assertEquals(60, booking.calculateTotalCost());
     }
 }
