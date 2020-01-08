@@ -8,11 +8,15 @@ public class Hotel {
 
     public Hotel (String hotelName, ArrayList<Bedroom> bedrooms, ArrayList<ConferenceRoom> conferenceRooms){
         this.hotelName = hotelName;
-        this.bedrooms = new ArrayList<Bedroom>();
-        this.conferenceRooms = new ArrayList<ConferenceRoom>();
+        this.bedrooms = bedrooms;
+        this.conferenceRooms = conferenceRooms; 
     }
 
     public String getHotelName() {
         return this.hotelName;
+    }
+
+    public int countBedrooms() {
+        return this.bedrooms.size();
     }
 }
