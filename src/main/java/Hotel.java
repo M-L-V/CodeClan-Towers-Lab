@@ -11,4 +11,8 @@ public class Hotel {
         this.bedrooms = new ArrayList<Bedroom>();
         this.conferenceRooms = new ArrayList<ConferenceRoom>();
     }
+
+    public String getHotelName() {
+        return this.hotelName;
+    }
 }

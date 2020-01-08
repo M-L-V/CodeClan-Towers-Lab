@@ -1,7 +1,10 @@
 import org.junit.Before;
+import org.junit.Test;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+
+import static org.junit.Assert.assertEquals;
 
 public class HotelTest {
 
@@ -31,6 +34,12 @@ public class HotelTest {
         conferenceRoomsList.add(conferenceRoom2);
 
         hotel = new Hotel ("CodeClan Towers", bedroomsList, conferenceRoomsList);
+    }
+
+    @Test
+    public void canGetHotelName(){
+
+        assertEquals("CodeClan Towers", hotel.getHotelName());
     }
 
 }
