@@ -23,7 +23,7 @@ public class Bedroom {
     }
 
     public String getType() {
-        return new String(this.type);
+        return this.type;
     }
 
     public int guestCount(){
@@ -36,5 +36,9 @@ public class Bedroom {
 
     public void removeGuest(Guest guest) {
         guests.remove(guests.indexOf(guest));
+    }
+
+    public void clearGuests() {
+        guests.clear();
     }
 }

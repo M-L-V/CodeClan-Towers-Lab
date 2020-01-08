@@ -7,6 +7,6 @@ public class Guest {
     }
 
     public String getName() {
-        return new String(this.name);
+        return this.name;
     }
 }
