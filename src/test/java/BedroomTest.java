@@ -32,4 +32,9 @@ public class BedroomTest {
     public void canGetRoomType(){
         assertEquals("double", bedroom1.getType());
     }
+
+    @Test
+    public void checksRoomStartsOutEmpty(){
+        assertEquals(0, bedroom1.guestCount());
+    }
 }

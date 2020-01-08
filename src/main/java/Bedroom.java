@@ -25,4 +25,8 @@ public class Bedroom {
     public String getType() {
         return new String(this.type);
     }
+    
+    public int guestCount(){
+        return guests.size();
+    }
 }
